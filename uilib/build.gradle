@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.jfrog.bintray'
 apply plugin: 'com.github.dcendents.android-maven'
 
-group = 'com.licon.logoimageview'
+group = 'com.licon.logo'
 version = '1.0.0'
 
 android {
@@ -56,18 +56,18 @@ bintray {
     key = ''
     pkg {
         repo = 'maven'
-        name = 'com.licon.logoimageview'
+        name = 'com.licon.logo'
 
         version {
             name = '1.0.0'
-            desc = ''
+            desc = 'This is a RelativeLayout containing a "LogoView" which can be used with text and/or icon which results a logo upon any image background. This library can be utilized for showing-off the photo, wallpaper or background using company or personal logo, copyright-sign or any text.'
             released  = new Date()
             vcsTag = '1.0.0'
         }
 
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/liconrepo/LogoImageView.git'
-        websiteUrl = 'https://github.com/liconrepo/LogoImageView'
+        vcsUrl = 'https://github.com/liconrepo/LogoView.git'
+        websiteUrl = 'https://github.com/liconrepo/LogoView'
     }
     configurations = ['archives']
 }
