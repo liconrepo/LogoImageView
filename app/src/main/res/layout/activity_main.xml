@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.licon.logo.LogoView
+        android:id="@+id/logoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:logoHeight="40dp"
+        app:logoWidth="40dp"
+        app:logoDrawable="@drawable/ic_photography"
+        app:logoTypeface="Android_7.ttf"
+        app:logoTextSize="36sp"
+        app:logoTextColor="#79a717"
+        app:logoMarginBottom="12dp"
+        app:logoMarginLeft="70dp"
+        app:backgroundDrawable="@drawable/bg_flower_fake"/>
+
+</RelativeLayout>
