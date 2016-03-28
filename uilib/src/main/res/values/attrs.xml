@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AttrLogoView">
+        <!-- textview as logo -->
+        <attr name="logoTypeface" format="string" />
+        <attr name="logoText" format="string" />
+        <attr name="logoTextColor" format="color" />
+        <attr name="logoBackgroundColor" format="color" />
+        <attr name="logoTextSize" format="dimension" />
+        <attr name="logoPositionX" format="dimension" />
+        <attr name="logoPositionY" format="dimension" />
+        <attr name="logoDrawable" format="integer" />
+        <attr name="logoHeight" format="dimension" />
+        <attr name="logoWidth" format="dimension" />
+        <attr name="logoMarginLeft" format="dimension" />
+        <attr name="logoMarginTop" format="dimension" />
+        <attr name="logoMarginRight" format="dimension" />
+        <attr name="logoMarginBottom" format="dimension" />
+        <attr name="backgroundDrawable" format="integer" />
+        <attr name="parentGravity" format="enum">
+            <enum name="center" value="17"/>
+            <enum name="bottom" value="80"/>
+            <enum name="center_horizontal" value="1"/>
+            <enum name="center_vertical" value="16"/>
+            <enum name="clip_horizontal" value="8"/>
+            <enum name="clip_vertical" value="128"/>
+            <enum name="end" value="8388613"/>
+            <enum name="fill" value="119"/>
+            <enum name="fill_horizontal" value="7"/>
+            <enum name="fill_vertical" value="112"/>
+            <enum name="left" value="3"/>
+            <enum name="right" value="5"/>
+            <enum name="start" value="8388611"/>
+            <enum name="top" value="48"/>
+        </attr>
+    </declare-styleable>
+</resources>
