@@ -77,9 +77,9 @@ public class MainActivity extends Activity {
 
 ## samples
 
- ![](https://github.com/liconrepo/LogoView/blob/feature1/samples/device-2016-03-28-155040.png)
- ![](https://github.com/liconrepo/LogoView/blob/feature1/samples/device-2016-03-28-161024.png)
- ![](https://github.com/liconrepo/LogoView/blob/feature1/samples/device-2016-03-28-162349.png)
+ ![](https://github.com/liconrepo/LogoView/blob/master/samples/device-2016-03-28-155040.png)
+ ![](https://github.com/liconrepo/LogoView/blob/master/samples/device-2016-03-28-161024.png)
+ ![](https://github.com/liconrepo/LogoView/blob/master/samples/device-2016-03-28-162349.png)
 
 ## fonts
 
